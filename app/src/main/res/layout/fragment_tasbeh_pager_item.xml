@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/value15">
+
+    <!--android:background="@drawable/shape_tow"-->
+
+
+    <LinearLayout
+        android:id="@+id/ln_tasbeh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <com.apprikot.mathurat.view.custom.CustomTextViewContent
+            android:id="@+id/tasbeh_ar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/value15"
+            android:gravity="center"
+            android:padding="@dimen/value10"
+            android:textColor="@color/color_10"
+            android:textSize="@dimen/font_large_plus" />
+
+        <com.apprikot.mathurat.view.custom.CustomTextViewContent
+            android:id="@+id/tasbeh_en"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/value15"
+            android:gravity="center"
+            android:padding="@dimen/value10"
+            android:textColor="@color/color_10"
+            android:textSize="@dimen/font_large_plus" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="gray_search_background">#E9E9E9</color>
+    <color name="gray_list_divider">#F0F0F0</color>
+    <color name="gray_toolbar">#FF6D6E71</color>
+    <color name="gray_separator">#D2D4D5</color>
+    <color name="green">#46B44F</color>
+    <color name="blue">#3E75B3</color>
+    <color name="orange">#FFC800</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_transparent">#CCFFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="border_gray">#cbcdce</color>
+    <color name="tab_unselect">#1C75BC</color>
+    <color name="tab_select">#33231F20</color>
+    <color name="txt_color_title">#397DC5</color>
+    <color name="txt_color">#00AEEF</color>
+    <color name="side_menu_color">#F2231F20</color>
+    <color name="border_shape">#D1D3D4</color>
+    <color name="block_blue">#80007AFF</color>
+
+    <color name="general_bg">#40FFC800</color>
+
+    <color name="color_1">#211E1E</color>
+    <color name="color_2">#C8A076</color>
+    <color name="color_3">#4A3525</color>
+    <color name="color_4">#CC4C3727</color>
+    <color name="color_5">#754C29</color>
+    <color name="color_6">#C8A076</color>
+    <color name="color_7">#1A4C3727</color>
+    <color name="color_8">#E6FFFFFF</color>
+    <color name="color_9">#334C3727</color>
+    <color name="color_10">#4C3727</color>
+    <color name="color_11">#DA4C3727</color>
+
+</resources>

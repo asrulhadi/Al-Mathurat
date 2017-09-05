@@ -1,0 +1,67 @@
+<resources>
+
+    <string name="text_paused_cellular">Would you like to enable downloading over cellular connections? Depending on your data plan, this may cost you money.</string>
+    <string name="text_paused_cellular_2">If you choose not to enable downloading over cellular connections, the download will automatically resume when wi-fi is available.</string>
+    <string name="text_button_resume_cellular">Resume download</string>
+    <string name="text_button_wifi_settings">Wi-Fi settings</string>
+    <string name="text_verifying_download">Verifying Download</string>
+    <string name="text_validation_complete">XAPK File Validation Complete.  Select OK to exit.</string>
+    <string name="text_validation_failed">XAPK File Validation Failed.</string>
+    <string name="text_button_pause">Pause Download</string>
+    <string name="text_button_resume">Resume Download</string>
+    <string name="text_button_cancel">Cancel</string>
+    <string name="text_button_cancel_verify">Cancel Verification</string>
+
+
+    <string name="app_name">المأثورات</string>
+    <string name="action_settings">الإعدادات</string>
+    <string name="evaluation">إحصائيات</string>
+    <string name="setting">الإعدادات</string>
+    <string name="share">مشاركة المأثورات</string>
+    <string name="about_app">عن المأثورات</string>
+    <string name="athkar">أذكار متنوعة</string>
+    <string name="tasbeh">تسبيح</string>
+    <string name="test_txt">سبحان الله وبحمده سبحان الله العظيم</string>
+    <string name="info_txt">تفاصيل</string>
+    <string name="share_txt">مشاركة</string>
+    <string name="example">مثال: سبحان الله</string>
+    <string name="line_size">حجم الخط</string>
+    <string name="change_lang">تغيير اللغة</string>
+    <string name="lang_text">العربية</string>
+    <string name="lang_text_en">الإنجليزية</string>
+    <string name="notify_setting">الوقت الخاص بالذكر!</string>
+    <string name="edit_notify">تعديل</string>
+    <string name="delete_notify">إلغاء</string>
+    <string name="notify_on">التنبيه مفعل</string>
+    <string name="notify_off">التنبيه غير مفعل</string>
+    <string name="notify_time">وقت التنبيه</string>
+    <string name="notify_repeat">تكرار التنبيه</string>
+    <string name="notify_thaker_setting">الوقت الخاص بالذكر!</string>
+    <string name="detail_back">رجوع</string>
+    <string name="thaker_benifet">فضل الذكر</string>
+    <string name="source">المصدر</string>
+    <string name="thaker_time_to_read">الوقت الخاص بالذكر!</string>
+    <string name="tasbeh_number">أدخل عدد التسبيحات</string>
+    <string name="tasbeh_counter">عدد التسبيحات: %1$s</string>
+
+
+    <string name="sat_thaker">أذكار يوم السبت</string>
+    <string name="sun_thaker">أذكار يوم الأحد</string>
+    <string name="mon_thaker">أذكار يوم الأثنين</string>
+    <string name="tues_thaker">أذكار يوم الثلاثاء</string>
+    <string name="wens_thaker">أذكار يوم الأربعاء</string>
+    <string name="thu_thaker">أذكار يوم الخميس</string>
+    <string name="fri_thaker">أذكار يوم الجمعة</string>
+    <string name="share_using">مشاركة</string>
+    <string name="ok">موافق</string>
+    <string name="cancel">إلغاء</string>
+    <string name="no_notify_set">false,false,false,false,false,false,false</string>
+    <string name="about_us_url">http://awakening.org/almathurat/about</string>
+    <string name="apprikot_url">http://www.apprikot.com/</string>
+    <string name="empty_notify">لا يوجد تنبيهات</string>
+    <string name="score">مجموع النقاط</string>
+    <string name="powered_by">Powered by: Apprikot</string>
+    <string name="audio_messing">البيانات غير متوفرة</string>
+    <string name="valid_value">أدخل رقم عدد صحيح</string>
+    <string name="no_value_enterd">الرجاء إدخال عدد التسبيحات</string>
+</resources>

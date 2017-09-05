@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<com.daimajia.swipe.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:swipe="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipe"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    swipe:leftEdgeSwipeOffset="0dp"
+    swipe:rightEdgeSwipeOffset="0dp">
+
+    <!--Bottom View For Right to Left-->
+
+    <LinearLayout
+        android:id="@+id/bottom_wrapper"
+        android:layout_width="@dimen/value180"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:id="@+id/edit_notify"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/color_3"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.apprikot.mathurat.view.custom.CheckableImageView
+                android:layout_width="@dimen/value40"
+                android:layout_height="@dimen/value40"
+                android:src="@drawable/edit_notify" />
+
+
+            <com.apprikot.mathurat.view.custom.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/edit_notify"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/delete_notify"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/color_3"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.apprikot.mathurat.view.custom.CheckableImageView
+                android:layout_width="@dimen/value40"
+                android:layout_height="@dimen/value40"
+                android:src="@drawable/delete_notify" />
+
+
+            <com.apprikot.mathurat.view.custom.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/delete_notify"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/value5"
+        android:orientation="vertical">
+
+        <com.apprikot.mathurat.view.custom.CustomTextViewContent
+            android:id="@+id/txt_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/color_3"
+            android:textSize="@dimen/font_medium" />
+
+    </LinearLayout>
+
+</com.daimajia.swipe.SwipeLayout>
+

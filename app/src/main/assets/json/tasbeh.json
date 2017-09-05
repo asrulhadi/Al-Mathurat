@@ -1,0 +1,57 @@
+[
+  {
+    "Id": 0,
+    "text_ar": "‏سبحان الله",
+    "text_en": "Glory be to Allah",
+    "counter": 0,
+    "min_counter": 0,
+    "max_counter": 10,
+    "refresh_counter": false,
+    "isMaxSet": false,
+    "isSound": false
+  },
+  {
+    "Id": 1,
+    "text_ar": "الحمد لله",
+    "text_en": "All praise is due to Allah",
+    "counter": 0,
+    "min_counter": 0,
+    "max_counter": 10,
+    "refresh_counter": false,
+    "isMaxSet": false,
+    "isSound": false
+  },
+  {
+    "Id": 2,
+    "text_ar": "الله اكبر",
+    "text_en": "Allah is the Greatest",
+    "counter": 0,
+    "min_counter": 0,
+    "max_counter": 10,
+    "refresh_counter": false,
+    "isMaxSet": false,
+    "isSound": false
+  },
+  {
+    "Id": 3,
+    "text_ar": "استغفر الله",
+    "text_en": "I seek forgiveness from Allah ",
+    "counter": 0,
+    "min_counter": 0,
+    "max_counter": 10,
+    "refresh_counter": false,
+    "isMaxSet": false,
+    "isSound": false
+  },
+  {
+    "Id": 4,
+    "text_ar": "اللهم صلي على محمد",
+    "text_en": "O Allah, send Your peace and blessings upon Muhammad",
+    "counter": 0,
+    "min_counter": 0,
+    "max_counter": 10,
+    "refresh_counter": false,
+    "isMaxSet": false,
+    "isSound": false
+  }
+]

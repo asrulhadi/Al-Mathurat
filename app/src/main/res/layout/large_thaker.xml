@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/large"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/value8"
+    android:layout_marginLeft="@dimen/value15"
+    android:layout_marginRight="@dimen/value15"
+    android:layout_marginTop="@dimen/value8">
+
+    <View
+        android:id="@+id/shape"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/value50"
+        android:background="@drawable/shape_tow" />
+
+    <com.apprikot.mathurat.view.custom.CustomTextViewContent
+        android:id="@+id/txt_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/img_3"
+        android:gravity="center"
+        android:padding="@dimen/value5" />
+
+    <com.apprikot.mathurat.view.custom.CheckableImageView
+        android:id="@+id/img_3"
+        android:layout_width="@dimen/height_toolbar_icon_large"
+        android:layout_height="@dimen/height_toolbar_icon_large"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/margin8"
+        android:layout_marginTop="@dimen/value8"
+        android:minWidth="@dimen/height_toolbar_icon"
+        android:src="@drawable/notify_setting" />
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/margin40"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/value5">
+
+            <com.apprikot.mathurat.view.custom.CheckableImageView
+                android:id="@+id/img_1"
+                android:layout_width="@dimen/height_toolbar_icon_large"
+                android:layout_height="@dimen/height_toolbar_icon_large"
+                android:minWidth="@dimen/height_toolbar_icon"
+                android:src="@drawable/share_large" />
+
+            <com.apprikot.mathurat.view.custom.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/value5"
+                android:text="@string/share_txt" />
+
+
+        </LinearLayout>
+
+
+        <com.github.lzyzsd.circleprogress.DonutProgress
+            android:id="@+id/donut_progress"
+            android:layout_width="@dimen/value70"
+            android:layout_height="@dimen/value70"
+            android:layout_centerInParent="true"
+            android:background="@drawable/progress_bg"
+            app:donut_finished_stroke_width="5dp"
+            app:donut_max="50"
+            app:donut_progress="20"
+            app:donut_prefix_text=""
+            app:donut_show_text="true"
+            app:donut_suffix_text=""
+            app:donut_text_color="@color/white"
+            app:donut_text_size="@dimen/font_medium"
+            app:donut_finished_color="@color/color_3"
+            app:donut_unfinished_stroke_width="5dp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/margin40"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/value5">
+
+            <com.apprikot.mathurat.view.custom.CheckableImageView
+                android:layout_width="@dimen/height_toolbar_icon_large"
+                android:layout_height="@dimen/height_toolbar_icon_large"
+                android:minWidth="@dimen/height_toolbar_icon"
+                android:src="@drawable/info_large" />
+
+            <com.apprikot.mathurat.view.custom.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/value5"
+                android:text="@string/info_txt" />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

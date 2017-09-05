@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_bar"
+        android:layout_marginLeft="@dimen/value15"
+        android:layout_marginRight="@dimen/value15"
+        android:layout_marginTop="@dimen/value20"
+        android:background="@drawable/shape_one"
+        android:orientation="horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/value10"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/value5">
+
+
+        <com.apprikot.mathurat.view.custom.CheckableImageView
+            android:id="@+id/ic_notify"
+            android:layout_width="@dimen/height_center_img"
+            android:layout_height="@dimen/height_center_img"
+            android:src="@drawable/selector_notify_pager" />
+
+
+        <com.apprikot.mathurat.view.custom.CustomTextView
+            android:id="@+id/notify_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/value10"
+            android:text="@string/notify_off"
+            android:textColor="@color/color_10"
+            android:textSize="@dimen/font_medium"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_title_bar"
+        android:layout_marginLeft="@dimen/value15"
+        android:layout_marginRight="@dimen/value15"
+        android:background="@drawable/shape_four"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.apprikot.mathurat.view.custom.CustomTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/notify_time"
+            android:textColor="@color/color_10"
+            android:textSize="@dimen/font_medium"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/value15"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <com.apprikot.mathurat.view.custom.WheelView
+            android:id="@+id/hour"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <com.apprikot.mathurat.view.custom.WheelView
+            android:id="@+id/mins"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <com.apprikot.mathurat.view.custom.WheelView
+            android:id="@+id/ampm"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_title_bar"
+        android:layout_marginLeft="@dimen/value15"
+        android:layout_marginRight="@dimen/value15"
+        android:layout_marginBottom="@dimen/value15"
+        android:background="@drawable/shape_four"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.apprikot.mathurat.view.custom.CustomTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/notify_repeat"
+            android:textColor="@color/color_10"
+            android:textSize="@dimen/font_medium"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/value15"
+        android:layout_marginRight="@dimen/value15"
+        android:layout_marginBottom="@dimen/value30"
+        android:orientation="horizontal">
+
+
+        <com.apprikot.mathurat.view.custom.CheckableImageView
+            android:id="@+id/sa"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height_action_bar"
+            android:layout_weight="1"
+            android:src="@drawable/selector_sa" />
+
+        <com.apprikot.mathurat.view.custom.CheckableImageView
+            android:id="@+id/su"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height_action_bar"
+            android:layout_weight="1"
+            android:src="@drawable/selector_su" />
+
+        <com.apprikot.mathurat.view.custom.CheckableImageView
+            android:id="@+id/mo"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height_action_bar"
+            android:layout_weight="1"
+            android:src="@drawable/selector_mo" />
+
+        <com.apprikot.mathurat.view.custom.CheckableImageView
+            android:id="@+id/tu"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height_action_bar"
+            android:layout_weight="1"
+            android:src="@drawable/selector_tu" />
+
+
+        <com.apprikot.mathurat.view.custom.CheckableImageView
+            android:id="@+id/we"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height_action_bar"
+            android:layout_weight="1"
+            android:src="@drawable/selector_we" />
+
+        <com.apprikot.mathurat.view.custom.CheckableImageView
+            android:id="@+id/th"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height_action_bar"
+            android:layout_weight="1"
+            android:src="@drawable/selector_th" />
+
+
+        <com.apprikot.mathurat.view.custom.CheckableImageView
+            android:id="@+id/fr"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height_action_bar"
+            android:layout_weight="1"
+            android:src="@drawable/selector_fr" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

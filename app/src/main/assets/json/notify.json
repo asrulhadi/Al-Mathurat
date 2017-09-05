@@ -1,0 +1,8 @@
+{
+    "Id": 0,
+    "isNotify": false,
+    "notify_hour": 0,
+    "notify_min": 0,
+    "notify_am_pm": 0,
+    "notify_days": "false,false,false,false,false,false,false"
+}

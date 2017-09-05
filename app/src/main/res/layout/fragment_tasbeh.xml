@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_bar"
+        android:layout_marginLeft="@dimen/value15"
+        android:layout_marginRight="@dimen/value15"
+        android:layout_marginTop="@dimen/value20"
+        android:background="@drawable/shape_one"
+        android:orientation="horizontal" />
+
+    <RelativeLayout
+        android:id="@+id/fullPage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginBottom="@dimen/value10"
+        android:layout_marginLeft="@dimen/value15"
+        android:layout_marginRight="@dimen/value15"
+        android:layout_marginTop="@dimen/value10">
+
+        <!--<com.apprikot.mathurat.view.custom.ClickableViewPager-->
+        <!--android:id="@+id/horizental_vp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/horizental_vp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        <RelativeLayout
+            android:id="@+id/function"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+
+            <com.apprikot.mathurat.view.custom.CheckableImageView
+                android:id="@+id/sound"
+                android:layout_width="@dimen/height_toolbar_icon_large"
+                android:layout_height="@dimen/height_toolbar_icon_large"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/margin20"
+                android:layout_marginTop="@dimen/value20"
+                android:src="@drawable/selector_tasbeh_sound" />
+
+
+            <RelativeLayout
+                android:id="@+id/refresh"
+                android:layout_width="@dimen/value80"
+                android:layout_height="@dimen/value80"
+                android:layout_centerHorizontal="true">
+
+                <com.github.lzyzsd.circleprogress.DonutProgress
+                    android:id="@+id/donut_progress"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/progress_bg"
+                    app:donut_finished_color="@color/color_3"
+                    app:donut_finished_stroke_width="@dimen/value7"
+                    app:donut_prefix_text=""
+                    app:donut_show_text="true"
+                    app:donut_suffix_text=""
+                    app:donut_text_color="@color/white"
+                    app:donut_text_size="@dimen/font_medium"
+                    app:donut_unfinished_stroke_width="@dimen/value7" />
+
+                <com.apprikot.mathurat.view.custom.CheckableImageView
+                    android:id="@+id/refresh_progress"
+                    android:layout_width="@dimen/value55"
+                    android:layout_height="@dimen/value55"
+                    android:layout_centerInParent="true"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ic_refresh_progress"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+
+            <com.apprikot.mathurat.view.custom.CheckableImageView
+                android:id="@+id/setting"
+                android:layout_width="@dimen/height_toolbar_icon_large"
+                android:layout_height="@dimen/height_toolbar_icon_large"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/margin20"
+                android:layout_marginTop="@dimen/value20"
+                android:src="@drawable/ic_tasbeh_setting" />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

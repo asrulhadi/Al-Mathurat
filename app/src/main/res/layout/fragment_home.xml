@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_bar"
+        android:background="@drawable/shape_one"
+        android:layout_margin="@dimen/value15"
+        android:orientation="horizontal" />
+
+
+    <com.apprikot.mathurat.view.custom.CustomTextView
+        android:id="@+id/txt_middle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/test_txt"
+        android:minLines="2"
+        android:textColor="@color/color_3"
+        android:textSize="@dimen/font_middle"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/ln"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/value15"
+        android:orientation="vertical">
+
+        <com.apprikot.mathurat.view.custom.CustomTextView
+            android:id="@+id/athkar_txt"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_bar"
+            android:layout_marginBottom="@dimen/value5"
+            android:layout_marginTop="@dimen/value5"
+            android:background="@drawable/shape_one"
+            android:gravity="center"
+            android:text="@string/athkar"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_medium"
+            android:textStyle="bold" />
+
+        <com.apprikot.mathurat.view.custom.CustomTextView
+            android:id="@+id/tasbeh_txt"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_bar"
+            android:layout_marginBottom="@dimen/value5"
+            android:layout_marginTop="@dimen/value5"
+            android:background="@drawable/shape_one"
+            android:gravity="center"
+            android:text="@string/tasbeh"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_medium"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="font" format="enum">
+        <enum name="GE_LIGHT" value="0" />
+        <enum name="GE_MEDIUM" value="1" />
+        <enum name="GE_BOLD" value="2" />
+    </attr>
+
+    <attr name="tab" format="enum">
+        <enum name="VIDEO" value="0" />
+        <enum name="PHOTOS" value="1" />
+        <enum name="PLAYERS" value="2" />
+        <enum name="TEAMS" value="3" />
+        <enum name="TOURNS" value="4" />
+        <enum name="NEWS" value="5" />
+    </attr>
+
+    <declare-styleable name="SearchTab">
+        <attr name="tab" />
+    </declare-styleable>
+
+    <attr name="label_position" format="enum">
+        <enum name="CENTER" value="17" />
+        <enum name="RIGHT" value="5" />
+    </attr>
+
+    <declare-styleable name="CustomTabLayout">
+        <attr name="font" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomTextView">
+        <attr name="font" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomEditText">
+        <attr name="font" />
+    </declare-styleable>
+
+    <attr name="custom_icon" format="reference" />
+    <attr name="custom_title" format="reference" />
+    <attr name="isChecked" format="boolean" />
+
+    <declare-styleable name="Tab">
+        <attr name="custom_icon" />
+        <attr name="custom_title" />
+        <attr name="isChecked" />
+    </declare-styleable>
+
+    <declare-styleable name="Arc">
+        <attr name="custom_icon" />
+        <attr name="custom_title" />
+        <attr name="isChecked" />
+    </declare-styleable>
+
+
+    <declare-styleable name="CommentMode">
+        <attr name="custom_icon" />
+        <attr name="custom_title" />
+        <attr name="isChecked" />
+    </declare-styleable>
+
+    <declare-styleable name="SideImageButton">
+        <attr name="custom_icon" />
+        <attr name="custom_title" />
+        <attr name="label_position" />
+    </declare-styleable>
+
+    <declare-styleable name="FlipImageView">
+        <attr name="isAnimated" format="boolean" />
+        <attr name="isFlipped" format="boolean" />
+        <attr name="flipDrawable" format="reference" />
+        <attr name="flipDuration" format="integer" />
+        <attr name="flipInterpolator" format="reference" />
+        <attr name="reverseRotation" format="boolean" />
+        <attr name="flipRotations">
+            <flag name="none" value="0" />
+            <flag name="x" value="1" />
+            <flag name="y" value="2" />
+            <flag name="z" value="4" />
+        </attr>
+    </declare-styleable>
+</resources>

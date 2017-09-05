@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <translate
+        android:duration="1000"
+        android:fromYDelta="100%"
+        android:toYDelta="0" />
+</set>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<set xmlns:android="http://schemas.android.com/apk/res/android">-->
+    <!--<alpha-->
+        <!--android:duration="@android:integer/config_mediumAnimTime"-->
+        <!--android:fromAlpha="1.0"-->
+        <!--android:interpolator="@android:anim/decelerate_interpolator"-->
+        <!--android:toAlpha="0.0"/>-->
+    <!--<translate-->
+        <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--android:duration="@android:integer/config_longAnimTime"-->
+        <!--android:fromYDelta="0%p"-->
+        <!--android:toYDelta="30%p">-->
+    <!--</translate>-->
+<!--</set>-->

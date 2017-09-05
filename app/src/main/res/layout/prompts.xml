@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp" >
+
+    <com.apprikot.mathurat.view.custom.CustomTextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/tasbeh_number"
+        android:padding="@dimen/value10"
+        android:background="@drawable/shape_six"
+        android:textSize="@dimen/font_medium_plus"/>
+
+    <com.apprikot.mathurat.view.custom.CustomEditText
+        android:id="@+id/userInput"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/value15"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/value10"
+        android:inputType="number"
+        android:background="@drawable/shape_six"
+        android:gravity="center">
+
+        <requestFocus />
+
+    </com.apprikot.mathurat.view.custom.CustomEditText>
+
+</LinearLayout>

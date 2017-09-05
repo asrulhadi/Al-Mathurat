@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="@dimen/value15"
+    android:layout_marginLeft="@dimen/value15"
+    android:layout_marginBottom="@dimen/value8"
+    android:layout_marginTop="@dimen/value8"
+    android:background="@drawable/shape_tow">
+
+    <com.apprikot.mathurat.view.custom.CustomTextViewContent
+        android:id="@+id/txt_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:padding="@dimen/value10"
+        android:textSize="@dimen/font_medium" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_value">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_toolbar_icon"
+            android:layout_margin="@dimen/value15"
+            android:background="@drawable/shape_three"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/value2">
+
+        </LinearLayout>
+
+        <com.github.lzyzsd.circleprogress.DonutProgress
+            android:id="@+id/donut_progress"
+            android:layout_width="@dimen/value60"
+            android:layout_height="@dimen/value60"
+            android:layout_centerInParent="true"
+            android:background="@drawable/progress_bg"
+            app:donut_finished_stroke_width="5dp"
+            app:donut_max="50"
+            app:donut_progress="20"
+            app:donut_prefix_text=""
+            app:donut_show_text="true"
+            app:donut_suffix_text=""
+            app:donut_text_color="@color/white"
+            app:donut_text_size="@dimen/font_medium"
+            app:donut_finished_color="@color/color_3"
+            app:donut_unfinished_stroke_width="5dp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

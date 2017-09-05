@@ -1,0 +1,70 @@
+<resources>
+
+    <string name="text_paused_cellular">Would you like to enable downloading over cellular connections? Depending on your data plan, this may cost you money.</string>
+    <string name="text_paused_cellular_2">If you choose not to enable downloading over cellular connections, the download will automatically resume when wi-fi is available.</string>
+    <string name="text_button_resume_cellular">Resume download</string>
+    <string name="text_button_wifi_settings">Wi-Fi settings</string>
+    <string name="text_verifying_download">Verifying Download</string>
+    <string name="text_validation_complete">XAPK File Validation Complete.  Select OK to exit.</string>
+    <string name="text_validation_failed">XAPK File Validation Failed.</string>
+    <string name="text_button_pause">Pause Download</string>
+    <string name="text_button_resume">Resume Download</string>
+    <string name="text_button_cancel">Cancel</string>
+    <string name="text_button_cancel_verify">Cancel Verification</string>
+
+
+
+
+    <string name="app_name">Al-Ma’thurat</string>
+    <string name="action_settings">Settings</string>
+    <string name="evaluation">Stats</string>
+    <string name="setting">Settings</string>
+    <string name="share">Share Al-Ma’thurat</string>
+    <string name="about_app">About Al-Ma’thurat</string>
+    <string name="athkar">Varied Athkar</string>
+    <string name="tasbeh">Tasbeh</string>
+    <string name="test_txt">سبحان الله وبحمده سبحان الله العظيم</string>
+    <string name="info_txt">Details</string>
+    <string name="share_txt">Share</string>
+    <string name="example">Example: Sobhan Allah</string>
+    <string name="line_size">Font Size</string>
+    <string name="change_lang">Change Language</string>
+    <string name="lang_text">Arabic</string>
+    <string name="lang_text_en">English</string>
+    <string name="notify_setting">Time to make dhikr!</string>
+    <string name="edit_notify">Update</string>
+    <string name="delete_notify">Delete</string>
+    <string name="notify_on">Alarm Activated</string>
+    <string name="notify_off">Alarm Deactivated</string>
+    <string name="notify_time">Alarm Time</string>
+    <string name="notify_repeat">Notification Repetition Days</string>
+    <string name="notify_thaker_setting">Time to make dhikr!</string>
+    <string name="detail_back">Back</string>
+    <string name="thaker_benifet">Thaker Benefit</string>
+    <string name="source">Source</string>
+    <string name="thaker_time_to_read">Time to make dhikr!</string>
+    <string name="tasbeh_number">Enter Tasbehat Count</string>
+    <string name="tasbeh_counter">Tasbehat Counter: %1$s</string>
+
+
+    <string name="sat_thaker">Saturday Athkar</string>
+    <string name="sun_thaker">Sunday Athkar</string>
+    <string name="mon_thaker">Monday Athkar</string>
+    <string name="tues_thaker">Tuesday Athkar</string>
+    <string name="wens_thaker">Wednesday Athkar</string>
+    <string name="thu_thaker">Thursday Athkar</string>
+    <string name="fri_thaker">Friday Athkar</string>
+    <string name="share_using">Share Using</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_notify_set">false,false,false,false,false,false,false</string>
+    <string name="about_us_url">http://awakening.org/almathurat/about</string>
+    <string name="apprikot_url">http://www.apprikot.com/</string>
+    <string name="empty_notify">No Notifies</string>
+    <string name="score">Score</string>
+    <string name="powered_by">Powered By: Apprikot</string>
+    <string name="audio_messing">No Data Avalabile</string>
+    <string name="valid_value">Enter valid count number</string>
+    <string name="no_value_enterd">Please enter tasbehat number</string>
+
+</resources>

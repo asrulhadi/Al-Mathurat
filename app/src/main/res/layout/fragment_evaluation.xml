@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_bar"
+        android:layout_marginLeft="@dimen/value15"
+        android:layout_marginRight="@dimen/value15"
+        android:layout_marginTop="@dimen/value10"
+        android:background="@drawable/shape_one"
+        android:orientation="horizontal" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/value170"
+        android:layout_marginTop="@dimen/value10"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.apprikot.mathurat.view.custom.VerticalTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/score"
+            android:textSize="@dimen/font_small_plus" />
+
+        <com.db.chart.view.BarChartView
+            android:id="@+id/chart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/value10"
+            android:layout_marginRight="@dimen/value5" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_action_bar"
+        android:layout_marginLeft="@dimen/value15"
+        android:layout_marginRight="@dimen/value15"
+        android:layout_marginTop="@dimen/value10"
+        android:gravity="center_vertical">
+
+        <com.apprikot.mathurat.view.custom.CheckableImageView
+            android:id="@+id/arrow_left"
+            android:layout_width="@dimen/height_bar"
+            android:layout_height="@dimen/height_bar"
+            android:layout_marginLeft="@dimen/value10"
+            android:src="@drawable/selector_arrow_left" />
+
+        <com.apprikot.mathurat.view.custom.CustomTextView
+            android:id="@+id/day_thaker"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/value5"
+            android:textSize="@dimen/font_medium_plus" />
+
+
+        <com.apprikot.mathurat.view.custom.CheckableImageView
+            android:id="@+id/arrow_right"
+            android:layout_width="@dimen/height_bar"
+            android:layout_height="@dimen/height_bar"
+            android:layout_marginRight="@dimen/value10"
+            android:src="@drawable/selector_arrow_right" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/value8"
+        android:layout_marginTop="@dimen/margin8" />
+
+
+</LinearLayout>
